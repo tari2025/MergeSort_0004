@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+int arr[20], B[20];
+
+int n;
+
 void input()
 {
     while (true)
@@ -73,3 +77,16 @@ while (i <= mid)
 for (int x = low; x <= high; x++)
 {
     arr[x] = b[x];
+
+    void output()
+    {
+        cout << "\nData setelah diurutkan (MergeSort): ";
+        for (int i = 0; i < n; i++)
+        {
+            cout << arr[i] << " "
+        }
+        cout endl;
+    }
+    int main()
+    {
+        input();
