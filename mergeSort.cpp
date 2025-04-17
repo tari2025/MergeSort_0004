@@ -90,6 +90,7 @@ for (int x = low; x <= high; x++)
     }
     int main()
     {
+
         input();
         mergeSort(0, n - 1);
         output();
